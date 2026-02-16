@@ -85,11 +85,11 @@ Kapsam: Steam (Valve), Epic Games, Blizzard (Battle.net), EA Games (Origin), Rio
 > [!WARNING]
 > Kural Listeleri: İstenmeyen olarak seçilmelidir.
 
-### 🎰 Master Bahis ve Spam Filtresi
+### 🎰 Agresif Bahis ve Spam Filtresi
 Kapsam: Bet, Casino, Slot, Bonus, Freespin ve varyasyonları.
 
 ```regex
-(?i)(b[\W_]*e[\W_]*t|c[\W_]*a[\W_]*s[\W_]*i[\W_]*n[\W_]*o|s[\W_]*l[\W_]*o[\W_]*t|p[\W_]*o[\W_]*k[\W_]*e[\W_]*r|b[\W_]*o[\W_]*n[\W_]*u[\W_]*s|f[\W_]*r[\W_]*e[\W_]*e[\W_]*s[\W_]*p[\W_]*i[\W_]*n|y[\W_]*a[\W_]*t[\W_]*ı[\W_]*r[\W_]*ı[\W_]*m|g[\W_]*i[\W_]*r[\W_]*i[\W_]*ş|\.(xyz|bet|link))
+(?i)(b[\W_]*e[\W_]*t|c[\W_]*a[\W_]*s[\W_]*i[\W_]*n[\W_]*o|s[\W_]*l[\W_]*o[\W_]*t|p[\W_]*o[\W_]*k[\W_]*e[\W_]*r|r[\W_]*u[\W_]*l[\W_]*e[\W_]*t|b[\W_]*o[\W_]*n[\W_]*u[\W_]*s|f[\W_]*r[\W_]*e[\W_]*e[\W_]*s[\W_]*p[\W_]*i[\W_]*n|d[\W_]*e[\W_]*n[\W_]*e[\W_]*m[\W_]*e|ç[\W_]*e[\W_]*v[\W_]*r[\W_]*i[\W_]*m|k[\W_]*a[\W_]*y[\W_]*[ıi][\W_]*p|y[\W_]*a[\W_]*t[\W_]*[ıi][\W_]*r[\W_]*[ıi][\W_]*m|j[\W_]*a[\W_]*c[\W_]*k[\W_]*p[\W_]*o[\W_]*t|a[\W_]*v[\W_]*i[\W_]*a[\W_]*t[\W_]*o[\W_]*r|b[\W_]*o[\W_]*n[\W_]*a[\W_]*n[\W_]*z[\W_]*a|o[\W_]*l[\W_]*y[\W_]*m[\W_]*p[\W_]*u[\W_]*s|z[\W_]*e[\W_]*p[\W_]*l[\W_]*i[\W_]*n|s[\W_]*w[\W_]*e[\W_]*e[\W_]*t|g[\W_]*a[\W_]*t[\W_]*e[\W_]*s|d[\W_]*e[\W_]*d[\W_]*e|s[\W_]*h[\W_]*o[\W_]*o[\W_]*t|g[\W_]*[üu][\W_]*n[\W_]*c[\W_]*e[\W_]*l|g[\W_]*i[\W_]*r[\W_]*i[\W_]*[şs]|y[\W_]*e[\W_]*n[\W_]*i.*a[\W_]*d[\W_]*r[\W_]*e[\W_]*s|l[\W_]*i[\W_]*n[\W_]*k|t[\W_]*[ıi][\W_]*k[\W_]*l[\W_]*a|k[\W_]*a[\W_]*z[\W_]*a[\W_]*n|x[\W_]*k[\W_]*a[\W_]*t[\W_]*[ıi]|o[\W_]*r[\W_]*a[\W_]*n|k[\W_]*u[\W_]*p[\W_]*o[\W_]*n|ş[\W_]*a[\W_]*n[\W_]*s|[0-9]+(\s?tl|\s?try)|%[0-9]+|\.(xyz|bet|link|top|site|club|live|pro|biz|cloud|cam|fun|online|info))
 ```
 
 ## ℹ️ Önemli Notlar
