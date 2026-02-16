@@ -1,4 +1,4 @@
-# 🛡️ Junkman Spam Filtresi (iOS)
+# 🛡️ Junkman SMS Filtresi (iOS)
 
 [![Platform: iOS](https://img.shields.io/badge/Platform-iOS-blue.svg)](https://apps.apple.com/tr/app/junkman-smart-sms-blocker/id1591815272)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
