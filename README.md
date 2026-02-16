@@ -59,26 +59,33 @@ Spam ve bahis içeriklerini engelleyen kuralı eklemek için:
 ```regex
 (?i)(ziraat|vak[ıi]f|halk\s?ban|[ıi]ş\s?ban|[ıi]s\s?ban|garanti|akban|yap[ıi]\s?kredi|qnb|finans\s?ban|deniz\s?ban|teb\s?ban|cepte\s?teb|kuveyt|albaraka|t[uü]rk\s?iye\s?finans|hsbc|ing\s?ban|odea|fiba|enpara|papara|tosla|paycell|nays|pep|fastpay|paribu|btcturk|moka|iyzi)
 ```
-📦 Kargo Firmaları
+### 📦 Kargo Firmaları
 Kapsam: Aras, Yurtiçi, MNG, PTT, Hepsijet, Trendyol Express, Amazon vb.
 ```regex
 (?i)(aras|mng|ptt|dhl|ups|fedex|tnt|yurt\s?[ıi][çc][ıi]|s[uü]rat|hepsi\s?jet|sendeo|kolay\s?gelsin|kargomsende|scotty|horoz|trendyol|amazon|jetizz|inter\s?global)
 ```
-📶 Operatörler ve İnternet Sağlayıcıları
+### 📶 Operatörler ve İnternet Sağlayıcıları
 Kapsam: Turkcell, Vodafone, Türk Telekom, TurkNet, Superonline vb.
 ```regex
 (?i)(turk\s?cell|vodafone|t[uü]rk\s?telekom|avea|ttnet|super\s?online|bim\s?cell|ptt\s?cell|tekno\s?sa|net\s?gsm|t[uü]rk\s?net|milleni|kablo\s?net|t[uü]rk\s?sat|d\s?smart|digiturk|tivibu)
 ```
-🏛️ Kritik Kurumlar & Servisler
-Kapsam: E-Devlet, MHRS, ÖSYM, Steam, Epic Games, THY, Obilet vb.
+### 🏛️ Kritik Kurumlar & Servisler
+Kapsam: E-Devlet, MHRS (182), ÖSYM, EGM, Belediyeler, Valilikler; HGS, OGS, THY, TCDD, Obilet, Enuygun, Martı gibi ulaşım firmaları; TREDAŞ, TESKİ, İGDAŞ, Enerjisa, Aksa, İSKİ, BEDAŞ gibi tüm elektrik, su ve doğalgaz dağıtım şirketleri.
 ```regex
-(?i)(e[\W_]*devlet|turkiye\.gov|mhrs|182|btk|gib|uyap|afad|hgs|ogs|osym|belediye|valilik|egm|sigorta|anadolu\s?hyt|emeklilik|bes|allianz|aksa|sbm|mapfre|sompo|steam|epic\s?games|item\s?sat[ıi][şs]|game\s?sat[ıi][şs]|bynogame|oyunfor|kabasakal|riot|blizzard|playstation|xbox|nintendo|google|apple|microsoft|obilet|enuygun|turna|thy|pegasus|sun\s?express|tcd|mart[ıi]|binbin|sahibinden|dolap|letgo)
+(?i)(e[\W_]*devlet|turkiye\.?gov|mhrs|182|btk|gib|uyap|afad|kades|egm|hgs|ogs|osym|belediye|bel\.?tr|b[uü]y[uü]k\s?seh[iı]r|valilik|tcdd|yht|thy|t[uü]rk\s?hava|pegasus|sun\s?express|a\s?jet|obilet|enuygun|turna|mart[ıi]|binbin|hop|treda[sş]|teski|gazda[sş]|iski|igda[sş]|beda[sş]|ayeda[sş]|seda[sş]|ueda[sş]|gediz|toroslar|enerjisa|aksa|enerya|palgaz|limak|ck\s?enerji|izsu|aski|buski|koski|saski|meski|gaski|zorlu\s?enerji)
 ```
+### 🎮 Oyun Platformları & E-Pin Siteleri
+Kapsam: Steam (Valve), Epic Games, Blizzard (Battle.net), EA Games (Origin), Riot Games, Ubisoft, Wargaming; PlayStation, Xbox, Nintendo; İtemsatış, Gamesatış, ByNoGame, Oyunfor gibi popüler E-Pin ve bakiye siteleri.
+```regex
+(?i)(steam|valve|epic\s?games|blizzard|battle\.?net|ea\s?games|origin|ubisoft|uplay|riot\s?games|wargaming|rockstar|twitch|discord|playstation|sony|xbox|microsoft|nintendo|item\s?sat[ıi][şs]|game\s?sat[ıi][şs]|bynogame|oyunfor|kabasakal|klasgame|foxngame|razer|steelseries)
+```
+
+
 ## 2. ⛔ İstenmeyen (Blacklist)
 > [!WARNING]
 > Kural Listeleri: İstenmeyen olarak seçilmelidir.
 
-🎰 Master Bahis ve Spam Filtresi
+### 🎰 Master Bahis ve Spam Filtresi
 Kapsam: Bet, Casino, Slot, Bonus, Freespin ve varyasyonları.
 
 ```regex
