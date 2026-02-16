@@ -88,12 +88,18 @@ Kapsam: Bet, Casino, Slot, Bonus, Freespin ve varyasyonları.
 ## ℹ️ Önemli Notlar
 > [!TIP]
 > Kuralların doğru çalışması için Regexlerin eksiksiz kopyalandığından ve Junkman ayarlarında "Düzenli İfade (Regex)" seçeneğinin aktif olduğundan emin olun.
-> Öneri: Özellikle banka ve kargo gibi kritik mesajların takibi için uygulamanın "İstenmeyen" klasörünü periyodik olarak kontrol etmeniz önerilir.
 
 ## 🤝 Katkıda Bulunma
 Yeni bir spam kalıbı mı fark ettiniz? Lütfen bir Issue açarak bildirin veya Pull Request göndererek listeyi güncel tutmamıza yardımcı olun.
 
+## 📜 Lisans
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosyasına göz atabilirsiniz.
+
 ## ⚖️ Sorumluluk Reddi (Disclaimer)
->[!CAUTION]
->Resmi Bağlantı: Bu depo (repository) Junkman uygulamasının resmi bir parçası, ürünü veya iştiraki değildir. Bu çalışma, iOS kullanıcılarının deneyimini iyileştirmek amacıyla bağımsız olarak geliştirilmiş yardımcı bir kural setidir.
->Kullanım Sorumluluğu: Paylaşılan Regex kuralları "olduğu gibi" sunulmaktadır. Kuralların kullanımı sonucunda (nadiren de olsa) önemli bir mesajın hatalı bir şekilde "İstenmeyen" olarak işaretlenmesi veya bir spam mesajının filtreden kaçması durumunda sorumluluk kullanıcıya aittir.
+> [!CAUTION]
+> **Resmi Bağlantı:** Bu depo (repository) Junkman uygulamasının resmi bir parçası, ürünü veya iştiraki değildir. Bu çalışma, iOS kullanıcılarının deneyimini iyileştirmek amacıyla bağımsız olarak geliştirilmiş yardımcı bir kural setidir.
+>
+> **Kullanım Sorumluluğu:** Paylaşılan Regex kuralları "olduğu gibi" sunulmaktadır. Kuralların kullanımı sonucunda (nadiren de olsa) önemli bir mesajın hatalı bir şekilde "İstenmeyen" olarak işaretlenmesi veya bir spam mesajının filtreden kaçması durumunda sorumluluk kullanıcıya aittir. 
+>
+> **Öneri:** Özellikle banka ve kargo gibi kritik mesajların takibi için uygulamanın "İstenmeyen" klasörünü periyodik olarak kontrol etmeniz önerilir.
+
