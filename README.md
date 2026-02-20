@@ -70,9 +70,9 @@ Kapsam: Turkcell, Vodafone, Türk Telekom, TurkNet, Superonline vb.
 (?i)(turk\s?cell|vodafone|t[uü]rk\s?telekom|avea|ttnet|super\s?online|bim\s?cell|ptt\s?cell|tekno\s?sa|net\s?gsm|t[uü]rk\s?net|milleni|kablo\s?net|t[uü]rk\s?sat|d\s?smart|digiturk|tivibu)
 ```
 ### 🏛️ Kritik Kurumlar & Servisler
-Kapsam: E-Devlet, MHRS (182), ÖSYM, EGM, Belediyeler, Valilikler; HGS, OGS, THY, TCDD, Obilet, Enuygun, Martı gibi ulaşım firmaları; TREDAŞ, TESKİ, İGDAŞ, Enerjisa, Aksa, İSKİ, BEDAŞ gibi tüm elektrik, su ve doğalgaz dağıtım şirketleri.
+Kapsam: E-Devlet, MHRS (182), ÖSYM, EGM, Belediyeler (BSB, BB, BLD, BL vb. dinamik uzantılar dahil), Valilikler; HGS, OGS, THY, TCDD, Obilet, Enuygun, Martı gibi ulaşım firmaları; TREDAŞ, TESKİ, İGDAŞ, Enerjisa, Aksa, İSKİ, BEDAŞ gibi tüm elektrik, su ve doğalgaz dağıtım şirketleri.
 ```regex
-(?i)(e[\W_]*devlet|turkiye\.?gov|mhrs|182|btk|gib|uyap|afad|kades|egm|hgs|ogs|osym|belediye|bel\.?tr|b[uü]y[uü]k\s?seh[iı]r|valilik|tcdd|yht|thy|t[uü]rk\s?hava|pegasus|sun\s?express|a\s?jet|obilet|enuygun|turna|mart[ıi]|binbin|hop|treda[sş]|teski|gazda[sş]|iski|igda[sş]|beda[sş]|ayeda[sş]|seda[sş]|ueda[sş]|gediz|toroslar|enerjisa|aksa|enerya|palgaz|limak|ck\s?enerji|izsu|aski|buski|koski|saski|meski|gaski|zorlu\s?enerji)
+(?i)(e[\W_]*devlet|turkiye\.?gov|mhrs|182|btk|gib|uyap|afad|kades|egm|hgs|ogs|osym|belediye|bel\.?tr|b[uü]y[uü]k\s?seh[iı]r|\w+\s?(?:bsb|bb|bld|bl)|ibb(?:\s?ik)?|s[uü]leymanpa[sş]a|valilik|tcdd|yht|thy|t[uü]rk\s?hava|pegasus|sun\s?express|a\s?jet|obilet|enuygun|turna|mart[ıi]|binbin|hop|treda[sş]|teski|gazda[sş]|iski|igda[sş]|beda[sş]|ayeda[sş]|seda[sş]|ueda[sş]|gediz|toroslar|enerjisa|aksa|enerya|palgaz|limak|ck\s?enerji|izsu|aski|buski|koski|saski|meski|gaski|zorlu\s?enerji)
 ```
 ### 🎮 Oyun Platformları & E-Pin Siteleri
 Kapsam: Steam (Valve), Epic Games, Blizzard (Battle.net), EA Games (Origin), Riot Games, Ubisoft, Wargaming; PlayStation, Xbox, Nintendo; İtemsatış, Gamesatış, ByNoGame, Oyunfor gibi popüler E-Pin ve bakiye siteleri.
