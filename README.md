@@ -108,5 +108,5 @@ Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için `LICENSE` dosya
 >
 > **Kullanım Sorumluluğu:** Paylaşılan Regex kuralları "olduğu gibi" sunulmaktadır. Kuralların kullanımı sonucunda (nadiren de olsa) önemli bir mesajın hatalı bir şekilde "İstenmeyen" olarak işaretlenmesi veya bir spam mesajının filtreden kaçması durumunda sorumluluk kullanıcıya aittir. 
 >
-> **Öneri:** Özellikle banka ve kargo gibi kritik mesajların takibi için uygulamanın "İstenmeyen" klasörünü periyodik olarak kontrol etmeniz önerilir.
+> **Öneri:** Özellikle banka, hukuki işlem ve kargo gibi kritik mesajların takibi için uygulamanın "İstenmeyen" klasörünü periyodik olarak kontrol etmeniz önerilir.
 
