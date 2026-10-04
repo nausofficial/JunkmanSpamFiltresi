@@ -77,7 +77,22 @@ Kapsam: E-Devlet, MHRS (182), ÖSYM, EGM, Belediyeler (BSB, BB, BLD, BL vb. dina
 ### 🎮 Oyun Platformları & E-Pin Siteleri
 Kapsam: Steam (Valve), Epic Games, Blizzard (Battle.net), EA Games (Origin), Riot Games, Ubisoft, Wargaming; PlayStation, Xbox, Nintendo; İtemsatış, Gamesatış, ByNoGame, Oyunfor gibi popüler E-Pin ve bakiye siteleri.
 ```regex
-(?i)(steam|valve|epic\s?games|blizzard|battle\.?net|ea\s?games|origin|ubisoft|uplay|riot\s?games|wargaming|rockstar|twitch|discord|playstation|sony|xbox|microsoft|nintendo|item\s?sat[ıi][şs]|game\s?sat[ıi][şs]|bynogame|oyunfor|kabasakal|klasgame|foxngame|razer|steelseries)
+(?i)(steam|valve|epic\s?games|blizzard|battle\.?net|ea\s?games|origin|ubisoft|uplay|riot\s?games|wargaming|rockstar|twitch|discord|playstation|sony|xbox|microsoft|nintendo|item\s?sat[ıi][şs]|game\s?sat[ıi][şs]|bynogame|oyunfor|kabasakal|klasgame|foxngame|razer|steelseries|donan[ıi]m\s?haber|giris\.donanimhaber\.com|roborock|kaspersky)
+```
+### 🧾 Alışveriş ve Yemek Servisleri
+Kapsam: Tikla Gelsin, Getir Yemek / Uber Eats ve Fiyuu (sipariş/fatura bildirimleri).
+```regex
+(?i)(t[iı]kla\s?gelsin|getir\s?yemek|uber\s?eats|fiyuu|fy\.fiyuu\.com\.tr|ata\s?express)
+```
+### 🏛️ Kamu ve Kurumsal Doğrulama Göndericileri
+Kapsam: EPATS, İŞKUR, Nüfus ve Vatandaşlık İşleri, İçişleri Bakanlığı / 112, MASS enerji tüketim portalı.
+```regex
+(?i)(epats|i[sş]kur|n[uü]fus|dijitalsira\.nvi\.gov\.tr|randevu\.nvi\.gov\.tr|icisleribak|mass\s?(?:mobil|portal|portal\.com\.tr))
+```
+### 📨 Güvenli Hesap ve Sipariş Bildirimleri (Mesaj Alanı)
+Bu örneklerin bazıları kısa gönderici kodlarından geldiğinden bu regexi yalnızca **Mesaj** alanına uygulayın; gönderen alanına eklemeyin. Kod, telefon numarası veya kişisel URL gibi değişken bilgileri eşleştirmez.
+```regex
+(?i)((?:burger\s?king|sipari[sş]iniz).{0,100}(?:fiyuu|fy\.fiyuu\.com\.tr|ata\s?express)|(?:do[gğ]rulama\s?kodu|kodunuz).{0,60}(?:t[iı]kla\s?gelsin|epats|i[sş]kur|roborock|kaspersky|donan[ıi]m\s?haber)|(?:hesab(?:[ıi]n[ıi]za|[ıi]na).{0,100}(?:sahibinden\.com|getir\s?yemek|uber\s?eats)|(?:sahibinden\.com|getir\s?yemek|uber\s?eats).{0,100}(?:hesap|giri[sş]|adres))|(?:elektrik|kesinti|t[uü]ketim).{0,100}massportal\.com\.tr|(?:a[cç][ıi]l\s?durumlarda|112.{0,40}(?:sa[gğ]l[ıi]k|emniyet|jandarma)).{0,80}icisleribak|donan[ıi]m\s?haber.{0,60}(?:do[gğ]rulama|giri[sş]))
 ```
 
 
